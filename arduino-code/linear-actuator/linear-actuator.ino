@@ -9,8 +9,9 @@ const int ENABLE = D5;  // ENABLE 핀 (모터 동작 제어)
 const int IN1 = D4;  // IN1 핀 (방향제어)
 const int IN2 = D3;  // IN2 핀 (방향제어)
 
-enum MOTOR_DIRECTION{FOWARD=0, BACKWARD=1};  // 모터의 전방, 후방 여부 확인을 위한 자료형 
-enum MOTOR_DIRECTION Direction;  // 모터의 전방, 후방 여부 확인을 위한 자료형 생성
+// 모터의 전방, 후방 여부 확인을 위한 자료형 
+enum MOTOR_DIRECTION{FOWARD=0, BACKWARD=1};  
+enum MOTOR_DIRECTION Direction;
 
 const char* firebaseHost =  FIREBASE_HOST // firebase URL
 const char* firebaseAuth = FIREBASE_AUTH // firebase 비밀번호
@@ -44,11 +45,11 @@ void setup() {
     Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);  // Firebase 연결 설정
     }
 
-    unsigned long motorStartTime = 0;  // 모터 동작 시작 시간 기록을 위한 변수
+    unsigned long motorStartTime = 0;  
     const unsigned long motorDuration = 6000;  // 모터 동작 시간 (6초)
 
     void loop() {
-    digitalWrite(trig, HIGH);  // 초음파 발신
+    digitalWrite(trig, HIGH);
     delayMicroseconds(10);
     digitalWrite(trig, LOW);
 
@@ -78,7 +79,7 @@ void setup() {
     
     // 모터 정지
     if (millis() - motorStartTime >= motorDuration && Direction == BACKWARD) {
-        digitalWrite(ENABLE, LOW); // 모터 정지
+        digitalWrite(ENABLE, LOW); 
     }
 
     Serial.print("Direction: "); 
