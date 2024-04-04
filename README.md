@@ -58,6 +58,6 @@
 
   <h2>📱 하드웨어/센서 회로도</h2>
   <h3>1) 압축 기능 설계도</h3>
-  
-  
+  <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/864f9cd5-2d07-4643-814a-34e6ec3e1004" width="40%" height="40%" />
+  <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/5959e015-48bc-4af6-9db9-5759d11123b7" width="40%" height="40%"/>
 </div>
