@@ -1,4 +1,4 @@
-<div align="center">
+
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=호출%20가능한%20인공지능%20쓰레기통%20로봇%20call-T&fontSize=40" />
 
   <h2>🛠 기술 스택</h2>
@@ -61,4 +61,4 @@
   <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/864f9cd5-2d07-4643-814a-34e6ec3e1004" height="350px" />
   <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/5959e015-48bc-4af6-9db9-5759d11123b7" height="350px"/>
   <h4>[D1 R2 보드 & DC 모터 드라이버 & 리니어 액추에이터 연결]</h4>
-</div>
+
