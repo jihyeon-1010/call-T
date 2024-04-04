@@ -42,12 +42,11 @@
       </td>
     </tr>
     <tr>
-      <td rowspan="4">S/W 개발환경</td>
-      <td>OS</td>
+      <td rowspan="4">H/W 구성장비</td>
+      <td>디바이스</td>
       <td>
-        <img src="https://img.shields.io/badge/Windows 10-0078D6?style=flat&logo=windows10&logoColor=white" />
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
-        <img src="https://img.shields.io/badge/Ubuntu 20.04-E95420?style=flat&logo=ubuntu&logoColor=white" />
+        <img src="https://img.shields.io/badge/Arduino Mega 2560-e3e3e00599C?style=flat" />
+        <img src="https://img.shields.io/badge/RaspberryPi4-e3e3e00599C?style=flat" />
       </td>
     </tr>
   </table>
