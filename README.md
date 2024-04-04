@@ -57,8 +57,8 @@
 
 <h2>📱 하드웨어/센서 회로도</h2>
 <h3>1) 압축 기능 설계도</h3>
-<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/864f9cd5-2d07-4643-814a-34e6ec3e1004" height="350px" />
-<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/5959e015-48bc-4af6-9db9-5759d11123b7" height="350px"/>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/864f9cd5-2d07-4643-814a-34e6ec3e1004" height="300px" />
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/5959e015-48bc-4af6-9db9-5759d11123b7" height="300px"/>
 <h4>[D1 R2 보드 & DC 모터 드라이버 & 리니어 액추에이터 연결]</h4>
 
 |WIFI D1 R2 보드(ESP8266)|L298N 모터 드라이버|리니어 액추에이터|초음파 센서
@@ -77,3 +77,17 @@
 |-|OUT2|음극(-)|-
 
 <h3>2) 분리수거 기능 설계도</h3>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/89349bfd-7728-4768-8df6-1da4ff14f99e" height="200px" />
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/51faa02a-9555-43a3-9fb2-b0f5b68332fe" height="200px"/>
+<h4>[아두이노 메가 & 서보 모터1 & 서보 모터2 연결]</h4>
+
+|아두이노 메가|서보 모터1|서보 모터2
+|:----:|:----:|:----:
+|GND|GND|GND
+|5V|5V|5V
+|PWM 9|데이터 핀|-
+|PWM 8|-|데이터 핀
+
+<h3>3) 주행 기능 설계도</h3>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/89349bfd-7728-4768-8df6-1da4ff14f99e" height="200px" />
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/51faa02a-9555-43a3-9fb2-b0f5b68332fe" height="200px"/>
