@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=호출%20가능한%20인공지능%20쓰레기통%20로봇%20call-T&fontSize=40" />
 
-  <h2>🔧 기술 스택</h2>
+  <h2>🛠 기술 스택</h2>
   <table>
     <tr>
       <th colspan="2">구분</th>
@@ -44,16 +44,20 @@
     <tr>
       <td rowspan="4">H/W 구성장비</td>
       <td>디바이스</td>
-      <td>
-        <img src="https://img.shields.io/badge/Arduino Mega 2560-e3e3e00599C?style=flat" />
-        <img src="https://img.shields.io/badge/RaspberryPi4-e3e3e00599C?style=flat" />
-      </td>
+      <td>Arduino Mega 2560, 아두이노 우노+WIFI D1 R2 보드(ESP8266), RaspberryPi4, L298N 모터 드라이버</td>
+    </tr>
+    <tr>
+      <td>센서</td>
+      <td>LIDAR(IP65), 초음파 센서(HC-SR04)</td>
+    </tr>
+    <tr>
+      <td>통신</td>
+      <td>BLE(Bluetooth Low Energy) 통신, Serial 통신</td>
     </tr>
   </table>
+
+  <h2>📱 하드웨어/센서 회로도</h2>
+  <h3>1) 압축 기능 설계도</h3>
   
-  <h2>ERD</h2>
-  <img src="https://github.com/jihyeon-1010/library-web/assets/119498515/280cc397-242b-468e-894a-f4f97e966bd5" width="60%">
   
-  <h2>API 명세서</h2>
-  <a href="https://s-organization-274.gitbook.io/untitled/"><img src="https://img.shields.io/badge/GitBook-BBDDE5?style=flat&logo=gitbook&logoColor=black" /></a> <span style="font-size:25">← 링크 바로가기</span>
 </div>
