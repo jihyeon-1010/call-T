@@ -58,6 +58,7 @@
 
   <h2>📱 하드웨어/센서 회로도</h2>
   <h3>1) 압축 기능 설계도</h3>
-  <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/864f9cd5-2d07-4643-814a-34e6ec3e1004" width="40%" height="40%" />
-  <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/5959e015-48bc-4af6-9db9-5759d11123b7" width="40%" height="40%"/>
+  <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/864f9cd5-2d07-4643-814a-34e6ec3e1004" height="350px" />
+  <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/5959e015-48bc-4af6-9db9-5759d11123b7" height="350px"/>
+  <h4>[D1 R2 보드 & DC 모터 드라이버 & 리니어 액추에이터 연결]</h4>
 </div>
