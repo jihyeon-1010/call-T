@@ -89,5 +89,8 @@
 |PWM 8|-|데이터 핀
 
 <h3>3) 주행 기능 설계도</h3>
-<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/89349bfd-7728-4768-8df6-1da4ff14f99e" height="200px" />
-<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/51faa02a-9555-43a3-9fb2-b0f5b68332fe" height="200px"/>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/ba3adb65-45ab-497c-9416-cac64ea50f96" height="300px"/>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/404fb108-29b8-492b-b708-f6ee83645c06" height="300px" />
+<h4>호출 버튼</h3>
+
+<h4>[D1 R2 보드 & DC 모터 드라이버 & 리니어 액추에이터 연결]</h4>
