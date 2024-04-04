@@ -92,5 +92,9 @@
 <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/ba3adb65-45ab-497c-9416-cac64ea50f96" height="250px"/>
 <img src="https://github.com/jihyeon-1010/call-T/assets/119498515/404fb108-29b8-492b-b708-f6ee83645c06" height="250px" />
 <h4>호출 버튼</h3>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/12829d31-7138-4d72-a5e1-aa2f7d8ef7fb" height="150px"/>
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/284c0f13-40f9-46e3-85d1-7bbd08a7260d" height="150px" />
+<h4>[아두이노 메가 & 모터 드라이버 보드 & 초음파 센서 & 라이더 센서 & 휠 모터 연결]</h4>
 
-<h4>[D1 R2 보드 & DC 모터 드라이버 & 리니어 액추에이터 연결]</h4>
+|아두이노 메가|모터 드라이버 보드|전면 좌측 초음파|전면 우측 초음파|후면 초음파|라이더 센서|전면 좌측 모터|전면 우측 모터|후면 좌측 모터|후면 우측 모터
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:
