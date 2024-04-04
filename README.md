@@ -8,7 +8,7 @@
       <th>상세내용</th>
     </tr>
     <tr>
-      <td rowspan="5">S/W 개발환경</td>
+      <td rowspan="4">S/W 개발환경</td>
       <td>OS</td>
       <td>
         <img src="https://img.shields.io/badge/Windows 10-0078D6?style=flat&logo=windows10&logoColor=white" />
@@ -38,6 +38,16 @@
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="4">S/W 개발환경</td>
+      <td>OS</td>
+      <td>
+        <img src="https://img.shields.io/badge/Windows 10-0078D6?style=flat&logo=windows10&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/Ubuntu 20.04-E95420?style=flat&logo=ubuntu&logoColor=white" />
       </td>
     </tr>
   </table>
