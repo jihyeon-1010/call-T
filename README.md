@@ -134,4 +134,4 @@
 |VCC|VCC|VCC|VCC|VCC|5V|-|-|-|-
 
 <h2>↪ 코드 흐름도</h2>
-<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/7c688045-a8f9-4521-a39b-002c61c81a9a" width="70%" />
+<img src="https://github.com/jihyeon-1010/call-T/assets/119498515/7c688045-a8f9-4521-a39b-002c61c81a9a" />
