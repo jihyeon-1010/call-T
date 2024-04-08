@@ -43,7 +43,7 @@
   <tr>
     <td rowspan="4">H/W 구성장비</td>
     <td>디바이스</td>
-    <td>Arduino Mega 2560, 아두이노 우노+WIFI D1 R2 보드(ESP8266), RaspberryPi4, L298N 모터 드라이버</td>
+    <td>Arduino Mega 2560, 아두이노 우노+WIFI D1 R2 보드(ESP8266), RaspberryPi4, L298N 모터 드라이버, ESP32-CAM</td>
   </tr>
   <tr>
     <td>센서</td>
