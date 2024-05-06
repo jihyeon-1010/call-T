@@ -1,2 +1,0 @@
-camera_publisher:detection_msgs:yolov5_ros
--DCATKIN_DEVEL_PREFIX=/home/lee/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lee/catkin_ws/install -G Unix Makefiles

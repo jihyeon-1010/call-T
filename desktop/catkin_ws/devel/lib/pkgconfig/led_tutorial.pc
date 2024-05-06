@@ -1,8 +1,0 @@
-prefix=/home/lee/catkin_ws/devel
-
-Name: led_tutorial
-Description: Description of led_tutorial
-Version: 0.0.0
-Cflags: -I/home/lee/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp message_generation std_msgs
