@@ -1,0 +1,2 @@
+camera_publisher:detection_msgs:mqtt_ros:raspberry_pi_ros_tutorial/camera_tutorial:yolov5_ros
+-DCATKIN_DEVEL_PREFIX=/home/pi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/catkin_ws/install -G Unix Makefiles

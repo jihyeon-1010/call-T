@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: ras_launch_packages
+Description: Description of ras_launch_packages
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
