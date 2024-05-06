@@ -1,0 +1,65 @@
+<launch>
+    <!-- 객체 검출 부분 -->
+    <!-- weight 파일 경로 (best_7.pt 파일 사용) -->
+    <arg name="weights" default="/home/lee/catkin_ws/src/yolov5_ros/best_7.pt" />
+    <!-- yaml 파일 경로 (데이터셋) -->
+    <arg name="data" default="$(find yolov5_ros)/src/yolov5/data/coco128.yaml" />
+    <!-- 객체의 신뢰도가 0.75 이상인 경우에만 인식 -->
+    <arg name="confidence_threshold" default="0.75" />
+
+    <arg name="iou_threshold" default="0.45" />
+    <arg name="max_detections" default="100" />
+    <arg name="device" default="cpu" />
+    <arg name="agnostic_nms" default="true" />
+    <arg name="bounding_thickness" default="3" />
+    <arg name="dnn" default="true" />
+    <arg name="half" default="false" />
+
+    <!-- height 크기 -->
+    <arg name="height" default="640" />
+    <!-- width 크기 -->
+    <arg name="width" default="640" />
+
+    <!-- 카메라 토픽 -->
+    <!-- 노트북 캠 -->
+    <!-- <arg name="input_image_topic" default="/cv_camera/image_raw" /> -->
+    <!-- 라즈베리파이 캠 (우리 카메라) -->
+    <!-- <arg name="input_image_topic" default="/camera_image" /> -->
+    <!-- 라즈베리파이 캠2(교수님 카메라)에서 발행하는 /camera_image 토픽을 구독-->
+    <arg name="input_image_topic" default="/camera_image" /> 
+
+    <!-- 객체 검출 결과인 /yolov5/detections 토픽을 발행 -->
+    <arg name="output_topic" default="/yolov5/detections" />
+
+    <!-- 객체 검출 결과를 OpenCV창으로 표시 -->
+    <arg name="view_image" default="true" />
+    <arg name="publish_image" default="false" />
+    <arg name="output_image_topic" default="/yolov5/image_out" />
+
+
+    <!-- detect.py 노드를 launch 파일로 실행 -->
+    <node pkg="yolov5_ros" name="detect" type="detect.py" output="screen">
+        <param name="weights" value="$(arg weights)" />
+        <param name="data" value="$(arg data)" />
+        <param name="confidence_threshold" value="$(arg confidence_threshold)" /> 
+        <param name="iou_threshold" value="$(arg iou_threshold)" />
+        <param name="max_detections" value="$(arg max_detections)" />
+        <param name="device" value="$(arg device)" />
+        <param name="agnostic_nms" value="$(arg agnostic_nms)" />
+        <param name="bounding_thickness" value="$(arg bounding_thickness)" />
+        <param name="dnn" value="$(arg dnn)" />
+        <param name="half" value="$(arg half)" />
+
+        <param name="height" value="$(arg height)" />
+        <param name="width" value="$(arg width)" />
+
+        <param name="input_image_topic" value="$(arg input_image_topic)" />
+        <param name="output_topic" value="$(arg output_topic)" />
+
+        <param name="view_image" value="$(arg view_image)" />
+
+        <param name="publish_image" value="$(arg publish_image)" />
+        <param name="output_image_topic" value="$(arg output_image_topic)" />
+    </node>
+    
+</launch>
