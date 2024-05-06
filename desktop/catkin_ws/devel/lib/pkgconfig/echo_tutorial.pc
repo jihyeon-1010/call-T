@@ -1,0 +1,8 @@
+prefix=/home/lee/catkin_ws/devel
+
+Name: echo_tutorial
+Description: Description of echo_tutorial
+Version: 0.0.0
+Cflags: -I/home/lee/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime message_generation std_msgs
